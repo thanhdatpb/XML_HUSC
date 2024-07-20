@@ -1,0 +1,14 @@
+<!ELEMENT quan_ly_ban_hang (hoa_don)>
+<!ELEMENT hoa_don (madon, ngayxuat, khachhang, tongtien, danhsachmathangdaban)>
+    <!ELEMENT madon(#PCDATA)> 
+    <!ELEMENT ngayxuat(#PCDATA)> 
+    <!ELEMENT khachhang (makhachhang, hoten)>
+        <!ELEMENT makhachhang (#PCDATA)> 
+        <!ELEMENT hoten(#PCDATA)> 
+    <!ELEMENT tongtien (#PCDATA)> 
+    <!ELEMENT danhsachmathangdaban (sanpham+)>
+        <!ELEMENT sanpham (masanpham, tensanpham, gia, soluong)>
+        <!ELEMENT masanpham(#PCDATA)> 
+        <!ELEMENT tensanpham(#PCDATA)>
+        <!ELEMENT gia(#PCDATA)>
+        <!ELEMENT soluong(#PCDATA)>

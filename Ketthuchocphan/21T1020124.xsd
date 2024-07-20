@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="quan_ly_ban_hang">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="hoa_don" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="madon" type="xs:string"/>
+                            <xs:element name="ngayxuat" type="xs:string"/>
+                            <xs:element name="khachhang">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="makhachhang" type="xs:string"/>
+                                        <xs:element name="hoten" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="tongtien" type="xs:decimal"/>
+                            <xs:element name="danhsachmathangdaban">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="sanpham" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="masanpham" type="xs:string"/>
+                                                    <xs:element name="tensanpham" type="xs:string"/>
+                                                    <xs:element name="gia" type="xs:decimal"/>
+                                                    <xs:element name="soluong" type="xs:int"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

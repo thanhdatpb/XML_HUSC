@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="21T1020124.dtd" type="application/xml-dtd"?>
+
+<quan_ly_ban_hang>
+<hoa_don>  
+    <madon>ttt01</madon>
+    <ngayxuat>2024-02-03</ngayxuat>
+    <khachhang>
+        <makhachhang>t201</makhachhang>
+        <hoten>thanh dat</hoten>
+    </khachhang>
+    <tongtien>20000</tongtien>
+    <danhsachmathangdaban>
+        <sanpham>
+            <masanpham>hs01</masanpham></masanpham>
+            <tensanpham>banh ngot</tensanpham>
+            <gia>10000</gia>
+            <soluong>1</soluong>
+        </sanpham>
+
+    </danhsachmathangdaban>
+</hoa_don>
+
+<hoa_don>  
+    <madon>ttt02</madon>
+    <ngayxuat>2024-02-05</ngayxuat>
+    <khachhang>
+        <makhachhang>t202</makhachhang>
+        <hoten>tien thanh</hoten>
+    </khachhang>
+    <tongtien>22000</tongtien>
+    <danhsachmathangdaban>
+        <sanpham>
+            <masanpham>hs02</masanpham>
+            <tensanpham>banh man</tensanpham>
+            <gia>11000</gia>
+            <soluong>2</soluong>
+        </sanpham>
+
+    </danhsachmathangdaban>
+</hoa_don>
+
+<hoa_don>  
+    <madon>tt03</madon>
+    <ngayxuat>2024-02-06</ngayxuat>
+    <khachhang>
+        <makhachhang>t203</makhachhang>
+        <hoten>thanh cong</hoten>
+    </khachhang>
+    <tongtien>25000</tongtien>
+    <danhsachmathangdaban>4</danhsachmathangdaban>
+    <sanpham>
+            <masanpham>hs03</masanpham>
+            <tensanpham>banh quy</tensanpham>
+            <gia>5000</gia>
+            <soluong>5</soluong>
+        </sanpham>
+</hoa_don>
+
+<hoa_don>  
+    <madon>ttt04</madon>
+    <ngayxuat>2024-02-07</ngayxuat>
+    <khachhang>
+        <makhachhang>t204</makhachhang>
+        <hoten>thanh trung</hoten>
+    </khachhang>
+    <tongtien>24000</tongtien>
+    <danhsachmathangdaban>5</danhsachmathangdaban>
+    <sanpham>
+            <masanpham>hs04</masanpham>
+            <tensanpham>banh nho</tensanpham>
+            <gia>6000</gia>
+            <soluong>4</soluong>
+        </sanpham>
+</hoa_don>
+
+<hoa_don>  
+    <madon>ttt06</madon>
+    <ngayxuat>2024-02-08</ngayxuat>
+    <khachhang>
+        <makhachhang>t206</makhachhang>
+        <hoten>cong danh</hoten>
+    </khachhang>
+    <tongtien>30000</tongtien>
+    <danhsachmathangdaban>5</danhsachmathangdaban>
+    <sanpham>
+            <masanpham>hs05</masanpham>
+            <tensanpham>banh dau</tensanpham>
+            <gia>5000</gia>
+            <soluong>6</soluong>
+        </sanpham>
+</hoa_don>
+</quan_ly_ban_hang>
