@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<Danh_Sach_Dich_Vu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="khachsan.xsd">
+    <DichVu MSDV="1" TenDV="Thuê phòng">
+        <LoaiDichVu MSLoaiDV="A" TenLoaiDV="Loại A" DonGia="600000"/>
+        <LoaiDichVu MSLoaiDV="B" TenLoaiDV="Loại B" DonGia="480000"/>
+        <LoaiDichVu MSLoaiDV="C" TenLoaiDV="Loại C" DonGia="360000"/>
+    </DichVu>
+
+    <DichVu MSDV="2" TenDV="Thuê xe">
+        <LoaiDichVu MSLoaiDV="1" TenLoaiDV="Loại 1 (7 chỗ)" DonGia="300000"/>
+        <LoaiDichVu MSLoaiDV="2" TenLoaiDV="Loại 2 (4 chỗ)" DonGia="200000"/>
+    </DichVu>
+
+    <DichVu MSDV="3" TenDV="Điện thoại">
+        <LoaiDichVu MSLoaiDV="1" TenLoaiDV="Loại 1" DonGia="50000"/>
+        <LoaiDichVu MSLoaiDV="2" TenLoaiDV="Loại 2" DonGia="30000"/>
+    </DichVu>
+</Danh_Sach_Dich_Vu> 

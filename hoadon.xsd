@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="Danh_Sach_Hoa_Don">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="HoaDon" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DichVu" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="LoaiDichVu" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:attribute name="MSLoaiDV" type="xs:string" use="required"/>
+                        <xs:attribute name="TenLoaiDV" type="xs:string" use="required"/>
+                        <xs:attribute name="DonGia" type="xs:decimal" use="required"/>
+                        <xs:attribute name="SoLuong" type="xs:integer" use="required"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="MSDV" type="xs:string" use="required"/>
+                  <xs:attribute name="TenDV" type="xs:string" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="SoHD" type="xs:string" use="required"/>
+            <xs:attribute name="HoTenKH" type="xs:string" use="required"/>
+            <xs:attribute name="NgayLap" type="xs:string" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

@@ -1,0 +1,30 @@
+<?xml version='1.0'  encoding="UTF-8"?>
+<Danh_Sach_Hoa_Don xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="hoadon.xsd">
+       <HoaDon SoHD="1" HoTenKH="Nguyen Văn A" NgayLap="05/06/2020">
+              <DichVu MSDV="1" TenDV="Thuê phòng">
+                     <LoaiDichVu MSLoaiDV="1" TenLoaiDV="Loai A" DonGia="600000" SoLuong="2"/>
+                     <LoaiDichVu MSLoaiDV="3" TenLoaiDV="Loai C" DonGia="360000" SoLuong="4"/>
+              </DichVu>
+              <DichVu MSDV="2" TenDV="Thuê xe">
+                     <LoaiDichVu MSLoaiDV="4" TenLoaiDV="Loai 1" DonGia="300000" SoLuong="1"/>
+                     <LoaiDichVu MSLoaiDV="5" TenLoaiDV="Loai 2" DonGia="200000" SoLuong="1"/>
+              </DichVu>
+              <DichVu MSDV="3" TenDV="Dien thoai">
+                     <LoaiDichVu MSLoaiDV="6" TenLoaiDV="Loai 1" DonGia="50000" SoLuong="5"/>
+              </DichVu>
+       </HoaDon>
+
+       <HoaDon SoHD="2" HoTenKH="Nguyễn Văn Bình" NgayLap="01/06/2020">
+            <DichVu MSDV="1" TenDV="Thuê phong">
+                    <LoaiDichVu MSLoaiDV="1" TenLoaiDV="Loai A" DonGia="200000" SoLuong="1"/>
+            </DichVu>
+            <DichVu MSDV="2" TenDV="Thuê xe">
+                    <LoaiDichVu MSLoaiDV ="4" TenLoaiDV="Loai 1" DonGia="30000" SoLuong="2" />
+                    <LoaiDichVu MSLoaiDV ="5" TenLoaiDV="Loai 2" DonGia="15000" SoLuong="2"/>
+            </DichVu>
+            <DichVu MSDV="3" TenDV="Dien thoai"> 
+                <LoaiDichVu MSLoaiDV="6" TenLoaiDV="Loai 1" DonGia="50000" SoLuong="7"/>
+         </DichVu>
+        </HoaDon>
+        </Danh_Sach_Hoa_Don>
+        

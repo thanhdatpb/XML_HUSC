@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE KHACH_SAN SYSTEM "dv_khach_san.dtd">
+<KHACH_SAN>
+    <THUE_PHONG>
+        <LOAI_PHONG ten = 'A' don_gia = '600000' />
+        <LOAI_PHONG ten = 'B' don_gia = '600000' />
+        <LOAI_PHONG ten = 'C' don_gia = '600000' />
+    </THUE_PHONG>
+    <THUE_PHONG>
+        <LOAI_PHONG ten = "1" don_gia = '300000'>7 chỗ</LOAI_PHONG>
+        <LOAI_PHONG ten = "2" don_gia = '200000'>4 chỗ</LOAI_PHONG>
+    </THUE_PHONG>
+    <DIEN_THOAI>
+        <LOAI_DIEN_THOAI ten = "1" don_gia = "50000" />
+        <LOAI_DIEN_THOAI ten = "2" don_gia = "30000" />
+    </DIEN_THOAI>
+</KHACH_SAN>

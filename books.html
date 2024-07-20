@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xPath demo for group 3</title>
+</head>
+<body>
+    <h1>Truy vấn dữ liệu với xPath</h1>
+    <p id="result">
+        Hiển thị kết quả truy vấn ở đây
+    </p>
+    <script>
+        // let hello = "Xin chào mọi người"
+        // document.getElementById("result").inert = hello;
+        // kĩ thuật ajax
+        var request = XMLHttpRequest();
+        request.open("get", "books.xml", true)
+        request.send()
+        request.onreadystatechange = function(){
+            if(this.readyState==4 && this.status==200){
+                // var content = this.responseText
+                // document.getElementById('result').inertText = content
+
+                var xml = this.responseXML;
+                var xPath = "/bookstore/book/titile";
+                var listNodes = xml.evaluate(xPath, xml, null, XPathResult.ANY_TYPE, null);
+                while (item = listNodes.iterateNext()){
+                    console.log(item.childNodes[0].nodeValue);
+                    str += item.childNodes[0].nodeValue + "<br>"
+                }
+            }
+            // mã erro web
+        };
+
+    </script>
+</body>
+</html>
